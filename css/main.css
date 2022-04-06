@@ -96,7 +96,16 @@ button.slick-prev{
     background-color: transparent;
     background-image: url(../img/arrow-1.png);
 }
-.banner {
-    width: 1300px;
-    float: left;
-    position: relative;
+button.slick-next{
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    position: absolute;
+    z-index: 9;
+    right: 0px;
+    top: 35%;
+    background-color: transparent;
+    background-image: url(../img/arrow-2.png);
+}

@@ -89,7 +89,6 @@ main, .content {
     float: left;
     justify-content: space-evenly;
 }
-}
 button.slick-prev{
     display: inline-block;
     font-size: 0px;

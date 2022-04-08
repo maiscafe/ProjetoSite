@@ -24,7 +24,6 @@ main, .content {
 .redes-sociais ul li {
     margin-left: 25px;
     display: inline-block;
-    float: left;
 }
 .redes-sociais {
     width: 25%;
@@ -82,12 +81,6 @@ main, .content {
     width: 100%;
     float: left;
     position: relative;
-}
-.icons-middle{
-    display: inline-flex;
-    margin-left: auto;
-    float: left;
-    justify-content: space-evenly;
 }
 button.slick-prev{
     display: inline-block;
@@ -163,6 +156,17 @@ li.slick-active button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
 }
-.texto-destaque strong {
-    color: #646464;
+.col-3 {
+    transition: all 1.5s;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.col-3 img:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }

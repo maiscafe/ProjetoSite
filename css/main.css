@@ -37,7 +37,7 @@ main, .content {
     padding: 16px;
 }
 .menu-url {
-    height: 80px;
+    height: 90px;
     border-bottom: 3px solid #efefef;
 }
 .menu ul li {
@@ -83,11 +83,18 @@ main, .content {
     float: left;
     position: relative;
 }
+.icons-middle{
+    display: inline-flex;
+    margin-left: auto;
+    float: left;
+    justify-content: space-evenly;
+}
+}
 button.slick-prev{
     display: inline-block;
     font-size: 0px;
     border: none;
-    height: 51px;
+    height: 50px;
     width: 25px;
     position: absolute;
     z-index: 9;
@@ -101,7 +108,7 @@ button.slick-next{
     font-size: 0px;
     border: none;
     height: 51px;
-    width: 25px;
+    width: 26px;
     position: absolute;
     z-index: 9;
     right: 14%;
@@ -111,6 +118,7 @@ button.slick-next{
 }
 .slider {
     width: 100%;
+    max-height: 450px;
 }
 .slick-initialized {
 overflow: hidden;
@@ -129,7 +137,7 @@ overflow: hidden;
     margin: 0 auto;
     width: 50%;
     position: absolute;
-    left: 50%;
+    left: 48%;
     top: 90%;
 }
 .slick-dots li {
@@ -142,4 +150,20 @@ li.slick-active button {
     height: 2px;
     border-radius: 10px;
     padding: 5px;
+}
+.texto-destaque p {
+    color: #a2a2a2;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.texto-destaque h1 {
+    color: #818181;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+.texto-destaque strong {
+    color: #646464;
 }

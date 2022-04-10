@@ -250,3 +250,10 @@ h3 {
 .bloco-logos img {
     text-align: center;
 }
+.footer h3 {
+    text-align: left;
+}
+.footer {
+    color: #ffffff;
+    background-image: url(../img/footer-background.png)
+}

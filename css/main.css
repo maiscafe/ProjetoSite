@@ -227,12 +227,26 @@ h3 {
     background: #eeeeee;
 } 
 .col-4 {
-   float: left;
-   width: 25%;
-  text-align: center;
+    float: left;
+    display: block;
+    width: 25%;
+    text-align: center;
 }
 .col-4 img {
     margin: 0 auto;
     margin-top: 1em;
     vertical-align: middle;
+    cursor: pointer;
+    position: relative;
+}
+.col-4 img:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all 1.0s;
+}
+.bloco-logos {
+    height: 170px;
+}
+.bloco-logos img {
+    text-align: center;
 }
